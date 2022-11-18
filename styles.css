@@ -1,0 +1,110 @@
+body {
+	background-color: #0F0F0F;
+	font-family: "Montserrat", sans-serif;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	text-decoration: none;
+	
+}
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	text-align: center;
+	
+}
+header ul{
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	font-size: 20px;
+	display: flex;
+	display: inline-table;
+	
+}
+header ul ul li{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+header ul li {
+	display:inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+header ul li a {
+	text-decoration:none;
+	color: #7FFFD4;
+}
+
+	/* this is if window width is below 900 */
+@media (max-width:900px) {
+	#main {
+		padding: 20px 10px 10px 10px;
+	}
+	header ul {
+		font-size: 16px;
+	}
+	#text {
+		font-size: 1.1em;
+	}
+	#valkommen {
+		font-size: 8vw;
+	}
+	header ul li {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#nav-pic {
+		width: 40px;
+	}
+}
+	/* this is if window width is over 900 */
+@media (min-width:900px) {
+	
+}
+
+.main {
+	padding: 70px 1vw 0px 1vw;
+	height: 100%;
+	
+}
+
+.nav-pic {
+	width: 60px;
+	border-radius: 50%;
+}
+
+.text {
+	padding-left: 1vw;
+	color: #E0E0E0;
+	font-size: 1.9em;
+}
+
+.inner-container {
+	background: #0A0A0A;
+	border-radius: 5px;
+	height: 50em;
+}
+
+.valkommen {
+	font-size: 6vw;
+	padding-left: .5em;
+}
+
+.green {
+	color: #7FFFD4;
+}
+.bold {
+	font-weight: bold;
+}
+
+a:link {
+	text-decoration: none;
+}
